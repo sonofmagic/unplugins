@@ -2,7 +2,7 @@
 
 ## Projects
 
-- [@icebreakers/bar](packages/bar) - tsup(esbuild) build package template
+- [unplugin-side-effect-cleaner](packages/unplugin-side-effect-cleaner) - tsup(esbuild) build package template
 
 ## Contributing
 
