@@ -1,11 +1,14 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig({
-  entry: ['src/index.ts'], // , 'src/cli.ts'],
-  shims: true,
+  entry: [
+    'src/*.ts',
+  ],
   format: ['cjs', 'esm'],
-  clean: true,
   dts: true,
+  splitting: true,
+  clean: true,
+  shims: false,
   // https://github.com/egoist/tsup/pull/1056
   // https://github.com/egoist/tsup/issues?q=cjsInterop
   // cjsInterop: true,
