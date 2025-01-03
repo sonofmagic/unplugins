@@ -3,6 +3,7 @@
 ## Projects
 
 - [unplugin-side-effect-cleaner](packages/unplugin-side-effect-cleaner) - tsup(esbuild) build package template
+- [unplugin-embed](https://github.com/zhangfisher/unplugin-embed) - embeds any file as a base64 string into the source code.
 
 ## Contributing
 
